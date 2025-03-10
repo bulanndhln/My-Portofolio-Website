@@ -1,0 +1,945 @@
+.title {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+    
+}
+
+#MyPortofolio .container {
+    display:block;
+    justify-content:center;
+    align-items:center;
+    margin-top:100px;
+    
+    //width:1000px;
+}
+
+
+
+
+#MyPortofolio .container .porto1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:100px;
+}
+
+
+#MyPortofolio .container .porto1 a img{
+    float: left;
+    display: block;
+    position: flex;
+    width:50%;
+    height:50%;
+    margin-left:150px;
+    border-radius: 24px;
+    border: 5px solid #EFE1D1;
+}
+#MyPortofolio .container .porto1 .desc{
+    position: absolute;
+    display:block;
+    float: right;
+    margin-left:600px;
+    justify-content: center;
+    align-items:center;
+    text-align: right;
+    width: 500px;
+    margin-top:-50px;
+
+}
+
+#MyPortofolio .container .porto1 .desc a h3 {
+    font-size:1.5em;
+    padding-right:30px;
+    width:300px;
+    margin-left:200px;
+    align-items:right;
+    justify-content:right;
+
+}
+
+#MyPortofolio .container .porto1 .desc p{
+    background-color:#A78295;
+    border-radius:10px;
+    padding:20px;
+}
+#MyPortofolio .container .porto1 .desc .portoLink {
+    display:flex;
+    align-items:right;
+    justify-content:right;
+    gap:1.5em;
+    margin-top:20px;
+    margin-right:20px;
+}
+#MyPortofolio .container .porto1 .desc .portoLink .linkExternal:hover{
+    transform: translate(5px,5px);
+}
+#MyPortofolio .container .porto1 .desc .portoLink .github:hover{
+    transform: translate(5px,5px);
+}
+#MyPortofolio .container .porto1 a img:hover,#MyPortofolio .container .porto2 a img:hover,#MyPortofolio .container .porto3 a img:hover {
+    transform: scale(1.1);
+    z-index: 10 !important;
+    position: relative;
+    transition: 0.5s;
+    
+}
+
+
+
+#MyPortofolio .container .porto2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:100px;
+}
+
+
+#MyPortofolio .container .porto2 a img{
+    float: right;
+    display: block;
+    position: flex;
+    width:50%;
+    height:50%;
+    margin-right:150px;
+    border-radius: 24px;
+    border: 5px solid #EFE1D1;
+}
+#MyPortofolio .container .porto2 .desc{
+    position: absolute;
+    display:block;
+    float: left;
+    margin-right:600px;
+    justify-content: center;
+    align-items:center;
+    text-align: left;
+    width: 500px;;
+    margin-top:-50px;
+
+}
+
+#MyPortofolio .container .porto2 .desc a h3 {
+    font-size:1.5em;
+    padding-right:30px;
+    width:300px;
+    padding-top:50px;
+
+}
+
+#MyPortofolio .container .porto2 .desc p{
+    background-color:#A78295;
+    border-radius:10px;
+    padding:20px;
+}
+#MyPortofolio .container .porto2 .desc .portoLink {
+    display:flex;
+    align-items:left;
+    justify-content:left;
+    gap:1.5em;
+    margin-top:20px;
+    margin-left:20px;
+}
+#MyPortofolio .container .porto2 .desc .portoLink .linkExternal:hover{
+    transform: translate(5px,5px);
+}
+#MyPortofolio .container .porto2 .desc .portoLink .github:hover{
+    transform: translate(5px,5px);
+}
+
+
+
+
+#MyPortofolio .container .porto3{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:100px;
+}
+
+
+#MyPortofolio .container .porto3 a img{
+    float: left;
+    display: block;
+    position: flex;
+    width:50%;
+    height:50%;
+    margin-left:150px;
+    border-radius: 24px;
+    border: 5px solid #EFE1D1;
+}
+#MyPortofolio .container .porto3 .desc{
+    position: absolute;
+    display:block;
+    float: right;
+    margin-left:600px;
+    justify-content: center;
+    align-items:center;
+    text-align: right;
+    width: 500px;
+    margin-top:-50px;
+
+}
+
+#MyPortofolio .container .porto3 .desc a h3 {
+    font-size:1.5em;
+    padding-right:30px;
+    width:300px;
+    margin-left:200px;
+    align-items:right;
+    justify-content:right;
+    padding-top:50px;
+
+}
+
+#MyPortofolio .container .porto3 .desc p{
+    background-color:#A78295;
+    border-radius:10px;
+    padding:20px;
+}
+#MyPortofolio .container .porto3 .desc .portoLink {
+    display:flex;
+    align-items:right;
+    justify-content:right;
+    gap:1.5em;
+    margin-top:20px;
+    margin-right:20px;
+}
+#MyPortofolio .container .porto3 .desc .portoLink .linkExternal:hover{
+    transform: translate(5px,5px);
+}
+#MyPortofolio .container .porto3 .desc .portoLink .github:hover{
+    transform: translate(5px,5px);
+}
+a {
+    padding:0;
+    margin:0;
+    decoration: none;
+    text-decoration: none;
+    color:#A78295;
+}
+a:hover{
+    color:#EFE1D1;
+}
+/* Responsif Laptop*/
+@media only screen and (max-width: 1200px) {
+
+#MyPortofolio .container {
+    margin-left:15px;
+    margin-right:15px;}
+#MyPortofolio .container .porto1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:100px;
+}
+
+
+#MyPortofolio .container .porto1 a img{
+    margin:0;
+    padding:0;
+    float: left;
+    display: block;
+    position: flex;
+    width:70%;
+    border-radius: 12px;
+    border: 5px solid transparent;
+    margin-left:50px;
+}
+#MyPortofolio .container .porto1 .desc{
+    position: flex;
+    display:block;
+    float: right;
+    justify-content: center;
+    align-items:center;
+    text-align: right;
+    width:350px;
+    margin-right:80px;
+}
+
+#MyPortofolio .container .porto1 .desc a h3 {
+    font-size:1.2em;
+    margin:0;
+    padding:0;
+    margin-left:30px;
+    padding-top:50px;
+    line-height:1;
+}
+
+#MyPortofolio .container .porto1 .desc p{
+    background-color:#A78295;
+    border-radius:10px;
+    line-height: 1.3;
+}
+#MyPortofolio .container .porto1 .desc .portoLink {
+    display:flex;
+    align-items:right;
+    justify-content:right;
+    gap:1.5em;
+    margin-top:20px;
+    margin-right:20px;
+}
+
+#MyPortofolio .container .porto2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:100px;
+}
+
+
+#MyPortofolio .container .porto2 a img{
+    margin:0;
+    padding:0;
+    float: right;
+    display: block;
+    position: flex;
+    width:70%;
+    border-radius: 12px;
+    border: 5px solid transparent;
+    margin-left:50px;
+}
+#MyPortofolio .container .porto2 .desc{
+    position: flex;
+    display:block;
+    float: left;
+    justify-content: center;
+    align-items:center;
+    text-align: left;
+    width:350px;
+    margin-left:150px;
+}
+
+#MyPortofolio .container .porto2 .desc a h3 {
+    font-size:1.2em;
+    margin:0;
+    padding:0;
+    width:200px;
+    padding-top:70px;
+    line-height:1;
+}
+
+#MyPortofolio .container .porto2 .desc p{
+    background-color:#A78295;
+    border-radius:10px;
+    line-height: 1.3;
+}
+#MyPortofolio .container .porto2 .desc .portoLink {
+    display:flex;
+    align-items:left;
+    justify-content:left;
+    gap:1.5em;
+    margin-top:20px;
+    margin-right:20px;
+}
+
+#MyPortofolio .container .porto3{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:100px;
+}
+
+
+#MyPortofolio .container .porto3 a img{
+    margin:0;
+    padding:0;
+    float: left;
+    display: block;
+    position: flex;
+    width:70%;
+    border-radius: 12px;
+    border: 5px solid transparent;
+    margin-left:50px;
+}
+#MyPortofolio .container .porto3 .desc{
+    position: flex;
+    display:block;
+    float: right;
+    justify-content: center;
+    align-items:center;
+    text-align: right;
+    width:350px;
+    margin-right:80px;
+}
+
+#MyPortofolio .container .porto3 .desc a h3 {
+    font-size:1.2em;
+    margin:0;
+    padding:0;
+    margin-left:30px;
+    padding-top:70px;
+    width:220px;
+    margin-left:130px;
+    line-height:1;
+}
+
+#MyPortofolio .container .porto3 .desc p{
+    background-color:#A78295;
+    border-radius:10px;
+    line-height: 1.3;
+}
+#MyPortofolio .container .porto3 .desc .portoLink {
+    display:flex;
+    align-items:right;
+    justify-content:right;
+    gap:1.5em;
+    margin-top:20px;
+    margin-right:20px;
+}
+
+}
+
+
+/* Responsif Laptop*/
+@media only screen and (max-width: 992px) {
+.title h2{
+    font-size:2em;
+}
+#MyPortofolio .container {
+    margin-left:15px;
+    margin-right:15px;}
+#MyPortofolio .container .porto1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:100px;
+    margin-top:-50px;
+}
+
+
+#MyPortofolio .container .porto1 a img{
+    margin:0;
+    padding:0;
+    float: left;
+    display: block;
+    position: flex;
+    width:70%;
+    border-radius: 12px;
+    border: 5px solid transparent;
+}
+#MyPortofolio .container .porto1 .desc{
+    position: flex;
+    display:block;
+    float: right;
+    justify-content: center;
+    align-items:center;
+    text-align: right;
+    width:350px;
+    margin-right:200px;
+}
+
+#MyPortofolio .container .porto1 .desc a h3 {
+    font-size:1em;
+    text-align:right;
+    margin:0;
+    padding:0;
+    margin-left:30px;
+    padding-top:50px;
+
+
+}
+
+#MyPortofolio .container .porto1 .desc p{
+    background-color:#A78295;
+    border-radius:10px;
+    line-height: 1.3;
+    font-size:0.8em;
+}
+#MyPortofolio .container .porto1 .desc .portoLink {
+    display:flex;
+    align-items:right;
+    justify-content:right;
+    gap:1.5em;
+    margin-top:20px;
+    margin-right:20px;
+}
+
+
+#MyPortofolio .container .porto2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:100px;
+}
+
+
+#MyPortofolio .container .porto2 a img{
+    margin:0;
+    padding:0;
+    float: right;
+    display: block;
+    position: flex;
+    width:70%;
+    border-radius: 12px;
+    border: 5px solid transparent;
+}
+#MyPortofolio .container .porto2 .desc{
+    position: flex;
+    display:block;
+    float: left;
+    justify-content: center;
+    align-items:center;
+    text-align: left;
+    width:350px;
+    margin-left:200px;
+    //margin-right:200px;
+}
+
+#MyPortofolio .container .porto2 .desc a h3 {
+    font-size:1em;
+    text-align:left;
+    margin:0;
+    padding:0;
+    //margin-left:30px;
+    padding-top:50px;
+    line-height:1;
+    width:200px
+
+
+}
+
+#MyPortofolio .container .porto2 .desc p{
+    background-color:#A78295;
+    border-radius:10px;
+    line-height: 1.3;
+    font-size:0.8em;
+}
+#MyPortofolio .container .porto2 .desc .portoLink {
+    display:flex;
+    align-items:left;
+    justify-content:left;
+    gap:1.5em;
+    margin-top:20px;
+    margin-left:20px;
+}
+
+
+#MyPortofolio .container .porto3{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:100px;
+}
+
+
+#MyPortofolio .container .porto3 a img{
+    margin:0;
+    padding:0;
+    float: left;
+    display: block;
+    position: flex;
+    width:70%;
+    border-radius: 12px;
+    border: 5px solid transparent;
+}
+#MyPortofolio .container .porto3 .desc{
+    position: flex;
+    display:block;
+    float: right;
+    justify-content: center;
+    align-items:center;
+    text-align: right;
+    width:350px;
+    margin-right:200px;
+}
+
+#MyPortofolio .container .porto3 .desc a h3 {
+    font-size:1em;
+    text-align:right;
+    margin:0;
+    padding:0;
+    margin-left:150px;
+    padding-top:70px;
+    line-height:1;
+    width:200px;
+    
+    //background-color:#A78295;
+    
+    
+
+
+}
+
+#MyPortofolio .container .porto3 .desc p{
+    background-color:#A78295;
+    border-radius:10px;
+    line-height: 1.3;
+    font-size:0.8em;
+}
+#MyPortofolio .container .porto3 .desc .portoLink {
+    display:flex;
+    align-items:right;
+    justify-content:right;
+    gap:1.5em;
+    margin-top:20px;
+    margin-right:20px;
+}
+
+
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+.title h2{
+    font-size:2em;
+}
+
+#MyPortofolio .container {
+    margin-left:15px;
+    margin-right:15px;
+}
+
+#MyPortofolio .container .porto1{
+    position:relative;
+    flex-direction: column;
+}
+
+
+#MyPortofolio .container .porto1 a img{
+    margin:0;
+    padding:0;
+    position: relative;
+    display: block;
+    width:100%;
+    border-radius: 12px;
+    border: 5px solid transparent;
+}
+#MyPortofolio .container .porto1 .desc{
+    display:block;
+    position: relative;
+    margin:0;
+    padding:0;
+    width:100%;
+    justify-content: center;
+    align-items:center;
+    text-align: left;
+    line-height: 1.3;
+    margin-left:20px;
+}
+
+#MyPortofolio .container .porto1 .desc a h3 {
+    font-size:1.5em;
+    padding:0;
+    margin:0;
+    margin-top:20px;
+    text-align:left;
+    
+
+}
+
+#MyPortofolio .container .porto1 .desc p{
+    background-color:transparent;
+    border-radius:10px;
+    padding:0;
+    margin:0;
+    margin-top:20px;
+}
+#MyPortofolio .container .porto1 .desc .portoLink {
+    display:flex;
+    align-items:left;
+    justify-content:left;
+    gap:1.5em;
+    margin-top:20px;
+    
+}
+
+
+
+#MyPortofolio .container .porto2{
+    position:relative;
+    flex-direction: column;
+}
+
+
+#MyPortofolio .container .porto2 a img{
+    margin:0;
+    padding:0;
+    position: relative;
+    display: block;
+    width:100%;
+    border-radius: 12px;
+    border: 5px solid transparent;
+}
+#MyPortofolio .container .porto2 .desc{
+    display:block;
+    position: relative;
+    margin:0;
+    padding:0;
+    width:100%;
+    justify-content: center;
+    align-items:center;
+    text-align: left;
+    line-height: 1.3;
+
+}
+
+#MyPortofolio .container .porto2 .desc a h3 {
+    font-size:1.5em;
+    padding:0;
+    margin:0;
+    margin-top:20px;
+    text-align:left;
+    width:100%;
+    
+
+}
+
+#MyPortofolio .container .porto2 .desc p{
+    background-color:transparent;
+    border-radius:10px;
+    padding:0;
+    margin:0;
+    margin-top:20px;
+}
+#MyPortofolio .container .porto2 .desc .portoLink {
+    display:flex;
+    align-items:left;
+    justify-content:left;
+    gap:1.5em;
+    margin-top:20px;
+    margin-left:0;
+
+    
+}
+
+
+
+#MyPortofolio .container .porto3{
+    position:relative;
+    flex-direction: column;
+}
+
+
+#MyPortofolio .container .porto3 a img{
+    margin:0;
+    padding:0;
+    position: relative;
+    display: block;
+    width:100%;
+    border-radius: 12px;
+    border: 5px solid transparent;
+}
+#MyPortofolio .container .porto3 .desc{
+    display:block;
+    position: relative;
+    margin:0;
+    padding:0;
+    width:100%;
+    justify-content: center;
+    align-items:center;
+    text-align: left;
+    line-height: 1.3;
+    margin-left:20px;
+}
+
+#MyPortofolio .container .porto3 .desc a h3 {
+    font-size:1.5em;
+    padding:0;
+    margin:0;
+    margin-top:20px;
+    text-align:left;
+    width:100%;
+    
+
+}
+
+#MyPortofolio .container .porto3 .desc p{
+    background-color:transparent;
+    border-radius:10px;
+    padding:0;
+    margin:0;
+    margin-top:20px;
+}
+#MyPortofolio .container .porto3 .desc .portoLink {
+    display:flex;
+    align-items:left;
+    justify-content:left;
+    gap:1.5em;
+    margin-top:20px;
+    
+}
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+#MyPortofolio .container {
+    margin-left:15px;
+    margin-right:15px;
+}
+.title h2{
+    font-size:2em;
+}
+
+#MyPortofolio .container .porto1{
+    position:relative;
+    flex-direction: column;
+    margin-top:-70px;
+}
+
+
+#MyPortofolio .container .porto1 a img{
+    margin:0;
+    padding:0;
+    position: relative;
+    display: block;
+    width:100%;
+    border-radius: 12px;
+    border: 5px solid transparent;
+}
+#MyPortofolio .container .porto1 .desc{
+    display:block;
+    position: relative;
+    margin:0;
+    padding:0;
+    width:100%;
+    justify-content: center;
+    align-items:center;
+    text-align: left;
+    line-height: 1.3;
+    margin-left:20px;
+}
+
+#MyPortofolio .container .porto1 .desc a h3 {
+    font-size:1.5em;
+    padding:0;
+    margin:0;
+    margin-top:20px;
+    
+
+}
+
+#MyPortofolio .container .porto1 .desc p{
+    background-color:transparent;
+    border-radius:10px;
+    padding:0;
+    margin:0;
+    margin-top:20px;
+}
+#MyPortofolio .container .porto1 .desc .portoLink {
+    display:flex;
+    align-items:left;
+    justify-content:left;
+    gap:1.5em;
+    margin-top:20px;
+    
+}
+
+
+
+#MyPortofolio .container .porto2{
+    position:relative;
+    flex-direction: column;
+}
+
+
+#MyPortofolio .container .porto2 a img{
+    margin:0;
+    padding:0;
+    position: relative;
+    display: block;
+    width:100%;
+    border-radius: 12px;
+    border: 5px solid transparent;
+}
+#MyPortofolio .container .porto2 .desc{
+    display:block;
+    position: relative;
+    margin:0;
+    padding:0;
+    width:100%;
+    justify-content: center;
+    align-items:center;
+    text-align: left;
+    line-height: 1.3;
+
+}
+
+#MyPortofolio .container .porto2 .desc a h3 {
+    font-size:1.5em;
+    padding:0;
+    margin:0;
+    margin-top:20px;
+    
+
+}
+
+#MyPortofolio .container .porto2 .desc p{
+    background-color:transparent;
+    border-radius:10px;
+    padding:0;
+    margin:0;
+    margin-top:20px;
+}
+#MyPortofolio .container .porto2 .desc .portoLink {
+    display:flex;
+    align-items:left;
+    justify-content:left;
+    gap:1.5em;
+    margin-top:20px;
+    margin-left:0;
+
+    
+}
+
+
+
+#MyPortofolio .container .porto3{
+    position:relative;
+    flex-direction: column;
+}
+
+
+#MyPortofolio .container .porto3 a img{
+    margin:0;
+    padding:0;
+    position: relative;
+    display: block;
+    width:100%;
+    border-radius: 12px;
+    border: 5px solid transparent;
+}
+#MyPortofolio .container .porto3 .desc{
+    display:block;
+    position: relative;
+    margin:0;
+    padding:0;
+    width:100%;
+    justify-content: center;
+    align-items:center;
+    text-align: left;
+    line-height: 1.3;
+    margin-left:20px;
+}
+
+#MyPortofolio .container .porto3 .desc a h3 {
+    font-size:1.5em;
+    padding:0;
+    margin:0;
+    margin-top:20px;
+    
+
+}
+
+#MyPortofolio .container .porto3 .desc p{
+    background-color:transparent;
+    border-radius:10px;
+    padding:0;
+    margin:0;
+    margin-top:20px;
+}
+#MyPortofolio .container .porto3 .desc .portoLink {
+    display:flex;
+    align-items:left;
+    justify-content:left;
+    gap:1.5em;
+    margin-top:20px;
+    
+}
+
+
+}
+

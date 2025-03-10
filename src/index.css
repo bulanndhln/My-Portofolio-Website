@@ -1,0 +1,27 @@
+:root {
+  font-family: "Gemunu Libre", serif;
+  background-color:#1B0E17FF;
+  letter-spacing:3px;
+  line-height: 2em;
+  color: #EFE1D1;
+
+
+}
+
+
+html, body {
+  margin: 0;
+  padding:0;
+  
+
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+@media (prefers-color-scheme: light) {
+
+}
