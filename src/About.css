@@ -144,7 +144,7 @@ aside .foto img {
   }
     .wrapper  .aboutMe h1{
     font-size: 2em;
-    width: 19ch;
+    width: 22ch;
   }
 
   aside {
@@ -211,7 +211,12 @@ aside .foto img {
 
 /* Responsif Smartphone*/
 @media (max-width: 576px) {
-  
+  .wrapper {
+    margin:0;
+    padding:0;
+    margin-left:20px;
+    margin-right:20px;
+  }
   #about{
     position: relative;
     display:block;
