@@ -3,7 +3,7 @@ export default function Navbar() {
     return (
         <nav >
             <div className="navbar">
-                <a href="#about"><h2>bulann</h2></a>
+                <a href="#about"><h2>BULANN</h2></a>
                 <div className="navRight">
                     <a href="#tools">Tools</a>
                     <a href="#experience">Experience</a>

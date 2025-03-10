@@ -7,7 +7,7 @@ export default function Line() {
                 height: "0.5px", // Ketebalan garis
                 backgroundColor: color, // Warna garis
                 border: "none", // Menghapus border default
-                margin: "50px auto", // Margin atas & bawah agar lebih proporsional
+                margin: "40px auto", // Margin atas & bawah agar lebih proporsional
             }}
         data-aos="fade-up"/>
     );

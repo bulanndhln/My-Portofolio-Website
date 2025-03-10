@@ -7,7 +7,7 @@ import Navbar from './Navbar.jsx';
 import Portofolio from './Portofolio.jsx';
 import Experience from './Experience.jsx';
 import Tools from './Tools.jsx';
-import Line from './line.jsx';
+import Line from './Line.jsx';
 import Contact from './Contact.jsx';
 import Copyright from './CopyRight.jsx';
 

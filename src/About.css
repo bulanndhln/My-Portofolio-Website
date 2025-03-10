@@ -69,31 +69,19 @@ aside .foto img {
 .wrapper  .aboutMe h1{  
   width: 19ch;
   text-wrap:nowrap;
-  border-right: 2px solid orange;
   overflow: hidden;
-      animation: 
-        typing 3.5s steps(19, end) infinite alternate-reverse,
-        blink-caret 0.75s step-end infinite;
+  animation: typing 3.5s steps(19, end) infinite alternate-reverse;
+
 }
 .wrapper  .aboutMe h3{  
     overflow: hidden;
-    border-right: 2px solid orange; /* Lebih jelas */
-    white-space: nowrap;
-    width: 20ch; /* Adjusted width to match text length */
-
-  
-    animation: 
-        typing 3.5s steps(20, end) infinite alternate-reverse,
-        blink-caret 0.75s step-end infinite;
+    text-wrap: nowrap;
+    width: 20ch;
+    animation: typing 3.5s steps(14, end) infinite alternate-reverse;
 }
 
 @keyframes typing {
     from { width: 0; }
-    to { width: max-content; }
-}
-
-@keyframes blink-caret {
-    50% { border-color: transparent; }
 }
 
 
@@ -117,8 +105,8 @@ aside .foto img {
 
   }
   .wrapper  .aboutMe h1{
-    font-size: 3em;
-    width: 19ch;
+    font-size: 2em;
+    width: 20ch;
   }
 
   aside {
@@ -155,7 +143,7 @@ aside .foto img {
     width: 90%;
   }
     .wrapper  .aboutMe h1{
-    font-size: 2.5em;
+    font-size: 2em;
     width: 19ch;
   }
 
@@ -194,7 +182,7 @@ aside .foto img {
     width: 80%;
   }
   .wrapper  .aboutMe h1{
-    font-size: 1.5em;
+    font-size: 2em;
     width: 22ch;
   }
   aside {
@@ -263,7 +251,6 @@ aside .foto img {
     height: 250px;
     border-radius: 12px;
     margin:-5px;
-    border: 5px solid #A78295;
 
   }
 
@@ -271,8 +258,15 @@ aside .foto img {
 
     margin-left:15px;
     margin-top:15px;
+    width: 100%;
     height: 100%;
     border-radius: 6px;
   }
-
+    .wrapper  .aboutMe h1{
+    font-size: 1.5em;
+    width: 22ch;
+  }
+    .wrapper  .aboutMe h3{
+    margin-top: 0px;
+  }
 }
