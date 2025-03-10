@@ -263,10 +263,11 @@ aside .foto img {
     border-radius: 6px;
   }
     .wrapper  .aboutMe h1{
-    font-size: 1.5em;
+    font-size: 1.2em;
     width: 22ch;
   }
     .wrapper  .aboutMe h3{
     margin-top: 0px;
+    font-size: 1em;
   }
 }
